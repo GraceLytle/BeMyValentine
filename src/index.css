@@ -1,0 +1,43 @@
+:root {
+  font-family: "Brush Script", cursive, Inter, system-ui, Avenir, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.8em;
+  background-color: #ffd3d2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin: 3px;
+  margin-top: 15px;
+  padding: 0.6em 1.2em;
+  font-size: 0.8em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ff3c9794 !important;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #f966deb3;
+}
+button:focus,
+button:focus-visible {
+  border: 1px solid transparent;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffd3d2;
+  }
+  a:hover {
+    color: #f966deb3;
+  }
+}
