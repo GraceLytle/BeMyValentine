@@ -25,6 +25,7 @@ function App() {
   }
 
   function generateConfetti(particleCount: number, scalar: number) {
+    console.log('Hello');
     const defaults = {
       spread: 360,
       ticks: 100,
@@ -44,9 +45,10 @@ function App() {
 
   function handleYesClick() {
     setYesPressed(true);
-    generateConfetti(50, 2);
-    generateConfetti(25, 3);
-    generateConfetti(10, 4);
+    generateConfetti(125, 3);
+    //Need to implement a promise set up to be able to layer multiple calls.
+    // generateConfetti(25, 3);
+    //generateConfetti(10, 4);
   }
 
   return (
